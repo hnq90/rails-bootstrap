@@ -1,6 +1,6 @@
 class VisitorsController < ApplicationController
 	def new
-    flash[:notice] = 'Welcome!'
-    flash[:alert] = 'My birthday is soon.'
+    flash[:notice] = 'Notice here'
+    flash[:alert] = 'Alert here'
 	end
 end

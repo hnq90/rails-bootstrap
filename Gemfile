@@ -15,6 +15,7 @@ gem 'figaro'
 gem 'high_voltage'
 gem 'simple_form', '>= 3.0.0.rc'
 gem 'haml'
+gem 'high_voltage'
 
 group :development do
   gem 'better_errors'
