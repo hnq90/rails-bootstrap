@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa1563ce-f995-458a-a7d1-9e708396b697" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/visitor.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_footer.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/_footer.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/visitors/new.html.haml" afterPath="$PROJECT_DIR$/app/views/visitors/new.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/visitors_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/visitors_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="rails-bootstrap.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,10 +46,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="visitors_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="visitors_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/visitors_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="41" selection-start="238" selection-end="246" vertical-scroll-proportion="0.26946107">
+            <state line="9" column="41" selection-start="238" selection-end="246" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new.html.haml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/visitors/new.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="81" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.41810346">
               <folding />
             </state>
           </provider>
@@ -89,11 +93,11 @@
         <option value="$PROJECT_DIR$/app/views/pages/about.html.haml" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/models/User.rb" />
-        <option value="$PROJECT_DIR$/app/views/visitors/new.html.haml" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_footer.html.haml" />
         <option value="$PROJECT_DIR$/app/models/visitor.rb" />
         <option value="$PROJECT_DIR$/app/controllers/visitors_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/visitors/new.html.haml" />
       </list>
     </option>
   </component>
@@ -797,13 +801,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/visitors/new.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="86" selection-start="1320" selection-end="1320" vertical-scroll-proportion="0.8060345">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/visitor.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="77" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0">
@@ -813,7 +810,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/visitors_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="41" selection-start="238" selection-end="246" vertical-scroll-proportion="0.26946107">
+        <state line="9" column="41" selection-start="238" selection-end="246" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/visitors/new.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="81" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.41810346">
           <folding />
         </state>
       </provider>

@@ -24,8 +24,17 @@
   %a.right.carousel-control{"data-slide" => "next", :href => "#myCarousel"} ›
 .text-center
   %h5 Select a Favorite
-  = simple_form_for @visitor do |f|
-    = f.error_notification
-    = f.input :favorite, :collection => Visitor::IMAGE_LABELS, label: false, as: :radio_buttons, :item_wrapper_class => 'inline'
-    = f.input :comment, label: false, :placeholder => 'Add a comment...'
-    = f.submit "Choose!", :class => "btn btn-primary"
+  #modal-form.modal{:style => "display: #{@visitor.errors.any? ? 'block' : 'none';}"}
+    = simple_form_for @visitor do |f|
+      .modal-header
+        %a.close{"data-dismiss" => "modal"} ×
+        %h3 Select a Favorite
+      .modal-body
+        = f.error_notification
+        = f.input :favorite, :collection => Visitor::IMAGE_LABELS, label: false, as: :radio_buttons, :item_wrapper_class => 'inline'
+        = f.input :comment, label: false, :placeholder => 'Add a comment...'
+      .modal-footer
+        = f.submit "Choose!", :class => "btn btn-primary"
+        %a.btn{"data-dismiss" => "modal", :href => "#"} Close
+  #call-to-action
+    %a.btn.btn-primary.btn-large{"data-toggle" => "modal", :href => "#modal-form"} Choose!
