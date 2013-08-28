@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa1563ce-f995-458a-a7d1-9e708396b697" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/visitors/new.html.haml" afterPath="$PROJECT_DIR$/app/views/visitors/new.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/rails-bootstrap.iml" afterPath="$PROJECT_DIR$/.idea/rails-bootstrap.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="rails-bootstrap.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,7 +60,7 @@
       <file leaf-file-name="new.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/visitors/new.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="81" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.41810346">
+            <state line="39" column="77" selection-start="1716" selection-end="1716" vertical-scroll-proportion="0.8060345">
               <folding />
             </state>
           </provider>
@@ -817,7 +819,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/visitors/new.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="81" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.41810346">
+        <state line="39" column="77" selection-start="1716" selection-end="1716" vertical-scroll-proportion="0.8060345">
           <folding />
         </state>
       </provider>

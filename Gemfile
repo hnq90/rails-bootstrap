@@ -24,3 +24,9 @@ group :development do
   gem 'binding_of_caller', :platforms=>[:mri_19, :mri_20, :rbx]
   gem 'quiet_assets'
 end
+
+group :production do
+  gem 'pg'
+  gem 'thin'
+  gem 'rails_on_heroku'
+end
