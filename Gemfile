@@ -30,3 +30,5 @@ end
 #huy
 gem 'unicorn'
 gem 'haml'
+#gem 'bootstrap-sass', '~> 2.3.2.1'
+gem 'simple_form', '>= 3.0.0.rc'

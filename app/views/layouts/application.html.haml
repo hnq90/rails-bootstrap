@@ -12,7 +12,9 @@
   %body
     #container
       %header
+        %render 'layouts/header'
       %main{:role=>'main'}
         / Dynamic
         = yield
       %footer
+        %render 'layouts/footer'
