@@ -1,1 +1,24 @@
-%h3 Home
+- content_for :title do
+  Rails Bootstrap
+- content_for :description do
+  Rails Bootstrap Example
+#myCarousel.carousel.slide
+  %ol.carousel-indicators
+    %li.active{"data-slide-to" => "0", "data-target" => "#myCarousel"}
+    %li{"data-slide-to" => "1", "data-target" => "#myCarousel"}
+    %li{"data-slide-to" => "2", "data-target" => "#myCarousel"}
+  .carousel-inner
+    .item.active
+      %img{:src => "http://lorempixel.com/1170/800/city/9"}/
+      .carousel-caption.text-center
+        %h4 San Francisco
+    .item
+      %img{:src => "http://lorempixel.com/1170/800/city/7"}/
+      .carousel-caption.text-center
+        %h4 Sydney
+    .item
+      %img{:src => "http://lorempixel.com/1170/800/city/6"}/
+      .carousel-caption.text-center
+        %h4 Paris
+  %a.left.carousel-control{"data-slide" => "prev", :href => "#myCarousel"} ‹
+  %a.right.carousel-control{"data-slide" => "next", :href => "#myCarousel"} ›
