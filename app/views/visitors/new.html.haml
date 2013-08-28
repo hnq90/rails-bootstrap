@@ -11,14 +11,21 @@
     .item.active
       %img{:src => "http://lorempixel.com/1170/800/city/9"}/
       .carousel-caption.text-center
-        %h4 San Francisco
+        %h4= Visitor::IMAGE_LABELS[0]
     .item
       %img{:src => "http://lorempixel.com/1170/800/city/7"}/
       .carousel-caption.text-center
-        %h4 Sydney
+        %h4= Visitor::IMAGE_LABELS[1]
     .item
       %img{:src => "http://lorempixel.com/1170/800/city/6"}/
       .carousel-caption.text-center
-        %h4 Paris
+        %h4= Visitor::IMAGE_LABELS[2]
   %a.left.carousel-control{"data-slide" => "prev", :href => "#myCarousel"} ‹
   %a.right.carousel-control{"data-slide" => "next", :href => "#myCarousel"} ›
+.text-center
+  %h5 Select a Favorite
+  = simple_form_for @visitor do |f|
+    = f.error_notification
+    = f.input :favorite, :collection => Visitor::IMAGE_LABELS, label: false, as: :radio_buttons, :item_wrapper_class => 'inline'
+    = f.input :comment, label: false, :placeholder => 'Add a comment...'
+    = f.submit "Choose!", :class => "btn btn-primary"

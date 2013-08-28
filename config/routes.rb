@@ -1,5 +1,5 @@
 RailsBootstrap::Application.routes.draw do
-  get 'pages/about' => 'high_voltage/pages#show', id: 'about'
-
+  get '/visitors' => 'visitors#new'
+  resources :visitors, only: [:new, :create]
   root 'visitors#new'
 end
