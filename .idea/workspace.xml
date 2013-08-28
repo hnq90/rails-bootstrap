@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa1563ce-f995-458a-a7d1-9e708396b697" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/about.html.haml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/pages/about.html.erb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_message.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/_message.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/visitors/new.html.haml" afterPath="$PROJECT_DIR$/app/views/visitors/new.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/visitors_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/visitors_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="rails-bootstrap.iws" />
@@ -16,14 +14,14 @@
     <file path="/application.html.haml" changelist="aa1563ce-f995-458a-a7d1-9e708396b697" time="1377680622634" ignored="false" />
     <file path="/bootstrap-and-override.css.scss" changelist="aa1563ce-f995-458a-a7d1-9e708396b697" time="1377677163673" ignored="false" />
     <file path="/application.js" changelist="aa1563ce-f995-458a-a7d1-9e708396b697" time="1377677296176" ignored="false" />
-    <file path="/Gemfile" changelist="aa1563ce-f995-458a-a7d1-9e708396b697" time="1377679672902" ignored="false" />
+    <file path="/Gemfile" changelist="aa1563ce-f995-458a-a7d1-9e708396b697" time="1377681797298" ignored="false" />
     <file path="/routes.rb" changelist="aa1563ce-f995-458a-a7d1-9e708396b697" time="1377681518065" ignored="false" />
     <file path="/_header.html.haml" changelist="aa1563ce-f995-458a-a7d1-9e708396b697" time="1377679038394" ignored="false" />
     <file path="/bootstrap_and_overrides.css.scss" changelist="aa1563ce-f995-458a-a7d1-9e708396b697" time="1377679984675" ignored="false" />
     <file path="/_message.html.haml" changelist="aa1563ce-f995-458a-a7d1-9e708396b697" time="1377680456074" ignored="false" />
     <file path="/visitors_controller.rb" changelist="aa1563ce-f995-458a-a7d1-9e708396b697" time="1377681001677" ignored="false" />
     <file path="/new.html.haml" changelist="aa1563ce-f995-458a-a7d1-9e708396b697" time="1377681479122" ignored="false" />
-    <file path="$PROJECT_DIR$/log/development.log" changelist="aa1563ce-f995-458a-a7d1-9e708396b697" time="1377681506019" ignored="false" />
+    <file path="$PROJECT_DIR$/log/development.log" changelist="aa1563ce-f995-458a-a7d1-9e708396b697" time="1377681770752" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,19 +95,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="60" selection-start="103" selection-end="103" vertical-scroll-proportion="0.044247787">
+            <state line="1" column="60" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="about.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/pages/about.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="14" selection-start="31" selection-end="31" vertical-scroll-proportion="-0.625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="46" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
+            <state line="16" column="54" selection-start="328" selection-end="328" vertical-scroll-proportion="0.5479452">
               <folding />
             </state>
           </provider>
@@ -142,12 +149,13 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/app/views/layouts/_message.html.haml" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/views/pages/about.html.haml" />
         <option value="$PROJECT_DIR$/app/controllers/visitors_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_header.html.haml" />
         <option value="$PROJECT_DIR$/app/views/visitors/new.html.haml" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/pages/about.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/pages/about.html.haml" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -155,7 +163,7 @@
     <option name="x" value="387" />
     <option name="y" value="70" />
     <option name="width" value="968" />
-    <option name="height" value="511" />
+    <option name="height" value="652" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -660,7 +668,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="387" y="70" width="968" height="511" extended-state="0" />
+    <frame x="387" y="70" width="968" height="652" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -764,13 +772,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="46" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/visitors_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="31" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
@@ -815,7 +816,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="60" selection-start="103" selection-end="103" vertical-scroll-proportion="0.044247787">
+        <state line="1" column="60" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/about.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="14" selection-start="31" selection-end="31" vertical-scroll-proportion="-0.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="54" selection-start="328" selection-end="328" vertical-scroll-proportion="0.5479452">
           <folding />
         </state>
       </provider>
